@@ -1,0 +1,32 @@
+.fit-cover {
+    object-fit: cover;
+  }
+  
+  img {
+    width: 110px;
+  }
+  
+  #container-footer a {
+    max-width: 100px;
+  }
+  
+  .navbar {
+    background: #353a40;
+  }
+  
+  #container-custom {
+    background: #353a40;
+  }
+  
+  footer {
+    background-image: linear-gradient(to right, #1c3643, #1e5372);
+  }
+  
+  .oscuro {
+    background: rgba(0, 0, 0, 0.6);
+  }
+  
+  #boton-enviar {
+    background: #96c93e;
+    border: none;
+  }
