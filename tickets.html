@@ -6,64 +6,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Trabajo práctico integrador JS - Codo a Codo 4.0 #23049 - Marcelo Muñoz</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
-  
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
     <style>
         .fit-cover {
-  object-fit: cover;
-}
+            object-fit: cover;
+        }
 
-img {
-  width: 110px;
-}
+        img {
+            width: 110px;
+        }
 
-#container-footer a {
-  max-width: 100px;
-}
+        #container-footer a {
+            max-width: 100px;
+        }
 
-.navbar {
-  background: #353a40;
-}
+        .navbar {
+            background: #353a40;
+        }
 
-#container-custom {
-  background: #353a40;
-}
+        #container-custom {
+            background: #353a40;
+        }
 
-footer {
-  background-image: linear-gradient(to right, #1c3643, #1e5372);
-}
+        footer {
+            background-image: linear-gradient(to right, #1c3643, #1e5372);
+        }
 
-.oscuro {
-  background: rgba(0, 0, 0, 0.6);
-}
+        .oscuro {
+            background: rgba(0, 0, 0, 0.6);
+        }
 
-.underline{
-  text-decoration:underline dotted;
-}
+        .underline {
+            text-decoration: underline dotted;
+        }
 
-.boton-verde {
-  background: #97c93e;
-  color: white;
-}
-.boton-verde:hover {
-  background: #71972e;
-  color: white;
-}
-.boton-verde:active {
-  background: #4f6b20 !important;
-  color: white !important;
-}
+        .boton-verde {
+            background: #97c93e;
+            color: white;
+        }
 
-.link-success {
-    color: #97c93e!important;
-}
+        .boton-verde:hover {
+            background: #71972e;
+            color: white;
+        }
+
+        .boton-verde:active {
+            background: #4f6b20 !important;
+            color: white !important;
+        }
+
+        .link-success {
+            color: #97c93e!important;
+        }
     </style>
-  <script src="assets/js/script.js"></script>
+    <script src="assets/js/script.js"></script>
 </head>
 
 <body>
     <nav class="navbar navbar-dark navbar-expand-lg sticky-top">
-        <div class="container"><a class="navbar-brand d-flex align-items-center" href="./index.html"><span>Conf Bs As</span></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-5"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="./index.html"><span>Conf Bs As</span></a>
+            <button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-5">
+                <span class="visually-hidden">Toggle navigation</span>
+                <span class="navbar-toggler-icon"></span>
+            </button>
             <div class="collapse navbar-collapse" id="navcol-5">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="./index.html">La conferencia</a></li>
@@ -80,17 +86,20 @@ footer {
             <div class="text-center border bg-none border-primary p-3 m">
                 <h5>Estudiante</h5>
                 <p>Tienen un descuento</p>
-                <h6 class="fw-bold">80%</h6><small class="text-secondary">* presentar documentación</small>
+                <h6 class="fw-bold">80%</h6>
+                <small class="text-secondary">* presentar documentación</small>
             </div>
             <div class="text-center border bg-none border-info p-3 mx-1 mt-1 mt-sm-0">
                 <h5>Trainee</h5>
                 <p>Tienen un descuento</p>
-                <h6 class="fw-bold">50%</h6><small class="text-secondary">* presentar documentación</small>
+                <h6 class="fw-bold">50%</h6>
+                <small class="text-secondary">* presentar documentación</small>
             </div>
             <div class="text-center border bg-none border-warning p-3 mt-1 mt-md-0">
                 <h5>Junior</h5>
                 <p>Tienen un descuento</p>
-                <h6 class="fw-bold">15%</h6><small class="text-secondary">* presentar documentación</small>
+                <h6 class="fw-bold">15%</h6>
+                <small class="text-secondary">* presentar documentación</small>
             </div>
         </div>
     </div>
@@ -106,11 +115,17 @@ footer {
                             <form method="post">
                                 <div class="mb-4">
                                     <div class="row">
-                                        <div class="col"><input class="form-control" type="text" id="inputNombre" placeholder="Nombre"></div>
-                                        <div class="col"><input class="form-control" type="text" id="inputApellido" placeholder="Apellido"></div>
+                                        <div class="col">
+                                            <input class="form-control" type="text" id="inputNombre" placeholder="Nombre">
+                                        </div>
+                                        <div class="col">
+                                            <input class="form-control" type="text" id="inputApellido" placeholder="Apellido">
+                                        </div>
                                     </div>
                                     <div class="row mt-3">
-                                        <div class="col m"><input class="form-control" type="email" id="inputCorreo" placeholder="Correo"></div>
+                                        <div class="col m">
+                                            <input class="form-control" type="email" id="inputCorreo" placeholder="Correo">
+                                        </div>
                                     </div>
                                     <div class="row mt-3">
                                         <div class="col">
@@ -125,18 +140,19 @@ footer {
                                                 <option>Junior</option>
                                             </select>
                                         </div>
-                                        
                                     </div>
                                 </div>
-                                
                                 <div class="alert alert-primary" role="alert">
-                                    <span id="totalAPagar">Total a pagar: $</span>
+                                    <span id="totalAPagar">Total a pagar: $0</span>
                                 </div>
-                                
                                 <div>
                                     <div class="row pt-3">
-                                        <div class="col"><button class="btn w-100 boton-verde" id="btnBorrar" type="reset">Borrar</button></div>
-                                        <div class="col"><button class="btn w-100 boton-verde" id="btnCalcular" type="button">Resumen</button></div>
+                                        <div class="col">
+                                            <button class="btn w-100 boton-verde" id="btnBorrar" type="reset">Borrar</button>
+                                        </div>
+                                        <div class="col">
+                                            <button class="btn w-100 boton-verde" id="btnCalcular" type="button">Resumen</button>
+                                        </div>
                                     </div>
                                 </div>
                             </form>
@@ -147,13 +163,32 @@ footer {
         </div>
     </section>
 
-    <footer class="text-center mt-3">
-        <div class="container text-white d-flex flex-column justify-content-between align-items-center align-content-center py-4 flex-md-row" id="container-footer"><a class="text-center link-light text-decoration-none" href="#">Preguntas frecuentes</a><a class="link-light text-decoration-none" href="#">Contáctanos</a><a class="link-light text-decoration-none" href="#">Prensa</a><a class="link-light text-decoration-none" href="#">Conferencias</a><a class="link-light text-decoration-none" href="#">Términos y condiciones</a><a class="link-light text-decoration-none" href="#">Privacidad</a><a class="link-light text-decoration-none" href="#">Estudiantes</a></div>
+    <footer class="mt-auto">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-8 col-xl-8">
+                    <h4 class="text-light">Conf Bs As</h4>
+                    <p class="text-secondary">Dirección: 123 Calle Principal, Buenos Aires, Argentina</p>
+                    <p class="text-secondary">Teléfono: +54 123456789</p>
+                    <p class="text-secondary">Email: info@confbsas.com</p>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-4">
+                    <h4 class="text-light">Síguenos</h4>
+                    <div id="container-footer">
+                        <a class="btn btn-link btn-floating btn-lg text-secondary" href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-link btn-floating btn-lg text-secondary" href="#"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-link btn-floating btn-lg text-secondary" href="#"><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-link btn-floating btn-lg text-secondary" href="#"><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-link btn-floating btn-lg text-secondary" href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </footer>
+
+    <script src="https://kit.fontawesome.com/496fc41935.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-    crossorigin="anonymous"></script>
-    <script src="./js/script.js"></script>
+        integrity="sha384-r74MsW2YHcF2hxdLYQGYyFSquJcr4HzY3Nsd1gAkwvpkIdMlKcY7myc1xUqQ1MbS" crossorigin="anonymous"></script>
 </body>
 
 </html>
